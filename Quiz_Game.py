@@ -39,5 +39,6 @@ for question in questions:
         score += 1
     else:
         print("Incorrect! The correct answer is:", answers[question_num])
+        print(f"Your answer: {guess}, Correct answer: {answers[question_num]}")
     print("Your current score is:", score)
     question_num += 1
