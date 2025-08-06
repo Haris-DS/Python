@@ -55,3 +55,43 @@
 # print(fruits)
 # fruits.clear()
 # print(fruits)
+
+# Tuples
+
+# fruits = ("apple", "banana", "cherry")
+# print(fruits)
+# print(dir(fruits))
+# print(fruits[0])
+# print(fruits[1])
+# print(fruits[2])
+# for x in fruits:
+#     print(x)
+# This will raise an error because tuples are immutable
+# fruits.append("orange")
+# fruits.remove("banana")  # This will also raise an error
+# print(fruits)
+# print(len(fruits))  # Length of tuple
+# if "apple" in fruits:
+# print("Yes, 'apple' is in the fruits tuple")
+# fruits_copy = fruits  # Tuples are immutable, so this will not create a new tuple
+# print(fruits_copy)
+# fruits.index("banana")  # Returns the index of the first occurrence of "banana"
+# Returns the number of times "apple" appears in the tuple
+# fruits.count("apple")
+# fruits[1] = "kiwi"  # This will raise an error because tuples are immutable
+# fruits.sort()  # This will raise an error because tuples do not have a sort method
+# fruits.reverse()  # This will raise an error because tuples do not have a reverse method
+# This will raise an error because tuples do not have an insert method
+# fruits.insert(1, "kiwi")
+# This will raise an error because tuples do not have a remove method
+# fruits.remove("kiwi")
+# fruits.pop()  # This will raise an error because tuples do not have a pop method
+# fruits.clear()  # This will raise an error because tuples do not have a clear method
+# This will raise an error because tuples do not have an add method
+# fruits.add("orange")
+# This will raise an error because tuples do not have a discard method
+# fruits.discard("banana")
+# This will raise an error because tuples do not have a union method
+# fruits.union({"kiwi", "orange"})
+# This will raise an error because tuples do not have an intersection method
+# fruits.intersection({"kiwi", "orange"})
