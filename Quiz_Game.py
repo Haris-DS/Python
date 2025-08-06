@@ -42,3 +42,11 @@ for question in questions:
         print(f"Your answer: {guess}, Correct answer: {answers[question_num]}")
     print("Your current score is:", score)
     question_num += 1
+
+
+print("--" * 20)
+print("Quiz Over!")
+print("Your final score is:", score)
+print("Your guesses were:", guesses)
+print("Thank you for playing the Quiz Game!")
+print("--" * 20)
