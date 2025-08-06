@@ -40,3 +40,18 @@
 # Copying the list
 # fruits_copy = fruits.copy()
 # print(fruits_copy)
+
+
+# Sets
+# fruits = {"apple", "banana", "cherry", "mango", "kiwi", "orange"}
+
+# print(fruits)
+# print(dir(fruits))
+# fruits.add("orange")
+# print(fruits)
+# fruits.remove("apple")
+# print(fruits)
+# fruits.pop()
+# print(fruits)
+# fruits.clear()
+# print(fruits)
