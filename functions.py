@@ -20,3 +20,13 @@
 
 
 # display_invoice("Haris", 2033, "10/08/2025")
+
+
+# Return Statement
+
+def add(a, b):
+    c = a + b
+    return c
+
+
+print(add(10, 10))
