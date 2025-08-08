@@ -12,3 +12,11 @@
 
 
 # greet("haris")
+
+# def display_invoice(username, amout, due_date):
+#     print(f"Invoice for {username}")
+#     print(f"Amount: ${amout}")
+#     print(f"Due Date: {due_date}")
+
+
+# display_invoice("Haris", 2033, "10/08/2025")
