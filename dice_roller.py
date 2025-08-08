@@ -54,10 +54,14 @@ num_of_dice = int(input("how Many Dice?: "))
 for i in range(num_of_dice):
     dice.append(random.randint(1, 6))
 
-for i in range(num_of_dice):
-    for j in dice_faces.get(dice[i]):
-        print(j)
+# for i in range(num_of_dice):
+#     for j in dice_faces.get(dice[i]):
+#         print(j)
 
+for line in range(5):
+    for die in dice:
+        print(dice_faces.get(die)[line], end=" ")
+    print()
 
 for i in dice:
     total += i
