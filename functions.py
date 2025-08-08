@@ -24,9 +24,19 @@
 
 # Return Statement
 
-def add(a, b):
-    c = a + b
-    return c
+# def add(a, b):
+#     c = a + b
+#     return c
 
 
-print(add(10, 10))
+# print(add(10, 10))
+
+
+# def create_name(first, last):
+#     first = first.capitalize()
+#     last = last.capitalize()
+#     return first + " " + last
+
+
+# full_name = create_name("haris", "habib")
+# print(full_name)
